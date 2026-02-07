@@ -1,7 +1,7 @@
 name : Basic CI
 on:
   push:
-    branches: [develop]
+    branches: [ test ]
 jobs:
   build:
     runs-on: ubuntu-latest
